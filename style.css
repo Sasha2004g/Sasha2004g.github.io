@@ -1,0 +1,188 @@
+body{
+    background-color: #212133;
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('fonts/Inter-Regular.ttf');
+}
+
+@media screen and (min-width: 1124px){
+    .container{
+        width: 1124px;
+        margin: auto;
+    }
+
+    .header{
+        display: flex;
+        align-items: center;
+        height: 65px;
+        background-color: #343453;
+        font-size: 22px;
+        font-family: 'Inter-Regular';
+    }
+
+    .header_logo{
+        display: flex;
+        margin-left: 92px;
+    }
+
+    .header_logo_img{
+        width: 48px;
+        height: 40px;
+    }
+
+    .menu{
+        display: flex;
+        margin-left: 66px;
+        align-items: center;
+        
+    }
+
+    .menu_nav{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        color: #DAFDD4;
+    }
+
+    .menu_element{
+        display: flex;
+        
+    }
+
+    .menu_account{
+        display: flex;
+        flex-direction: row;
+        margin-left: 72px;
+        gap: 25px;
+        color: #EBECB8;
+    }
+
+
+    .name{
+        display: flex;
+        margin-top: 85px;
+        justify-content: center;
+        color: #46A624;
+        font-size: 36px;
+        font-family: 'Inter-Regular';
+    }
+
+    .blocks_logo{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        margin-top: 79px;
+        width: 780px;
+        height: 60px;
+        border: #BDEEBF solid 1px;
+        border-radius: 120px;
+        font-size: 32px;
+        font-family: 'Inter-Regular';
+        color: #B6BF93;
+    }
+
+
+    .front_unit{
+        align-items: center;
+        justify-content: center;
+        color: #FEFFD7;
+        display: flex;
+        font-family: 'Inter-Regular';
+        font-size: 24px;
+        width: 300px;
+        height: 60px;
+        background-color: #40405E;
+    }
+
+    .rear_unit{
+        
+        width: 300px;
+        height: 60px;
+        border: #BDEEBF solid 1px;
+        z-index: -1;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        
+    }
+
+    .roadmaps_blocks{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .roadmap_element{
+        margin-top: 20px;
+        margin-left: 130px;
+        position: relative;
+    }
+
+
+
+    .news{
+        margin-top: 90px;
+        background-color: #5E5E78;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 420px;
+
+    }
+    
+    .block_news{
+        display: flex;
+        width: 380px;
+        height: 400px;
+        font-size: 18px;
+        font-family: 'Inter-Regular';
+        background-color: #212133;
+        color: white;
+        flex-direction: column;
+        text-align: justify;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .text_news{
+        margin: 20px;
+    }
+
+
+
+    .footer{
+        display: flex;
+        height: 242px;
+        background-color: #262626;
+        justify-content: space-around;
+    }
+
+    .footer_info{
+        display: flex;
+        margin-top: 80px;
+        font-size: 20px;
+        font-family: 'Inter-Regular';
+        color: white;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .language{
+        margin-left: 90px;
+    }
+
+
+    .social_network{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+}
